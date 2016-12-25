@@ -1,0 +1,17 @@
+vhdl axi_lite_ipif_v3_0_4 "../../../ipstatic/axi_lite_ipif_v3_0_4/hdl/src/vhdl/ipif_pkg.vhd" 
+vhdl axi_lite_ipif_v3_0_4 "../../../ipstatic/axi_lite_ipif_v3_0_4/hdl/src/vhdl/pselect_f.vhd" 
+vhdl axi_lite_ipif_v3_0_4 "../../../ipstatic/axi_lite_ipif_v3_0_4/hdl/src/vhdl/address_decoder.vhd" 
+vhdl axi_lite_ipif_v3_0_4 "../../../ipstatic/axi_lite_ipif_v3_0_4/hdl/src/vhdl/slave_attachment.vhd" 
+vhdl axi_lite_ipif_v3_0_4 "../../../ipstatic/axi_lite_ipif_v3_0_4/hdl/src/vhdl/axi_lite_ipif.vhd" 
+vhdl lib_cdc_v1_0_2 "../../../ipstatic/lib_cdc_v1_0_2/hdl/src/vhdl/cdc_sync.vhd" 
+vhdl lib_pkg_v1_0_2 "../../../ipstatic/lib_pkg_v1_0_2/hdl/src/vhdl/lib_pkg.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/counter_f.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/mux_onehot_f.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/tc_types.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/timer_control.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/count_module.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/tc_core.vhd" 
+vhdl axi_timer_v2_0_11 "../../../ipstatic/axi_timer_v2_0_11/hdl/src/vhdl/axi_timer.vhd" 
+vhdl xil_defaultlib "../../../ip/axi_timer_0_1/sim/axi_timer_0.vhd" 
+
+nosort

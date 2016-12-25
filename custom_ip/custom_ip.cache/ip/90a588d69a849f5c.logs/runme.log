@@ -1,0 +1,111 @@
+
+*** Running vivado
+    with args -log design_1_auto_pc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_pc_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 305.734 ; gain = 95.582
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_axi_protocol_converter' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4806]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4224]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_aw_channel' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3969]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_cmd_translator' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_incr_cmd' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_incr_cmd' (1#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wrap_cmd' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wrap_cmd' (2#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_cmd_translator' (3#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wr_cmd_fsm' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wr_cmd_fsm' (4#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_aw_channel' (5#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3969]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_b_channel' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo' (6#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized0' (6#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_b_channel' (7#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_ar_channel' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4080]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_rd_cmd_fsm' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_rd_cmd_fsm' (8#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_ar_channel' (9#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4080]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_r_channel' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3809]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized1' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized1' (9#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized2' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized2' (9#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_r_channel' (10#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3809]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (11#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' (12#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' (12#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' (12#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' (12#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (13#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized6' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized6' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized7' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized7' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' (14#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s' (15#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4224]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_axi_protocol_converter' (16#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4806]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_0' (17#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 422.246 ; gain = 212.094
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 422.246 ; gain = 212.094
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.280 . Memory (MB): peak = 652.766 ; gain = 0.102
+Finished Constraint Validation : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 652.766 ; gain = 442.613
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 652.766 ; gain = 442.613
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 652.766 ; gain = 442.613
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 652.766 ; gain = 442.613
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 652.766 ; gain = 442.613
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:02 . Memory (MB): peak = 652.766 ; gain = 442.613
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 656.477 ; gain = 446.324
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 661.934 ; gain = 451.781
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    18|
+|2     |LUT1    |    37|
+|3     |LUT2    |    17|
+|4     |LUT3    |   234|
+|5     |LUT4    |    40|
+|6     |LUT5    |    72|
+|7     |LUT6    |   107|
+|8     |SRL16E  |    22|
+|9     |SRLC32E |    47|
+|10    |FDRE    |   548|
+|11    |FDSE    |    52|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 661.934 ; gain = 451.781
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 670.043 ; gain = 448.707

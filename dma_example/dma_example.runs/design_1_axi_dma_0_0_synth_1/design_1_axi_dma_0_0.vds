@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 25 17:03:32 2016
+# Process ID: 428
+# Current directory: C:/Users/speci/vivado/dma_example/dma_example.runs/design_1_axi_dma_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_dma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_dma_0_0.tcl
+# Log file: C:/Users/speci/vivado/dma_example/dma_example.runs/design_1_axi_dma_0_0_synth_1/design_1_axi_dma_0_0.vds
+# Journal file: C:/Users/speci/vivado/dma_example/dma_example.runs/design_1_axi_dma_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_dma_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 319.211 ; gain = 109.734
+ERROR: [Synth 8-439] module 'design_1_axi_dma_0_0' not found
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 357.613 ; gain = 148.137
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details

@@ -1,0 +1,315 @@
+
+*** Running vivado
+    with args -log design_1_myip_0_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_myip_0_3.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_myip_0_3.tcl -notrace
+Command: synth_design -top design_1_myip_0_3 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12888 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 297.254 ; gain = 87.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_myip_0_3' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/synth/design_1_myip_0_3.v:57]
+INFO: [Synth 8-638] synthesizing module 'myip_v1_0' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/f95c/src/myip_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'myip_v1_0_S00_AXI' [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/f95c/src/myip_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/f95c/src/myip_v1_0_S00_AXI.v:223]
+INFO: [Synth 8-226] default block is never used [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/f95c/src/myip_v1_0_S00_AXI.v:364]
+INFO: [Synth 8-256] done synthesizing module 'myip_v1_0_S00_AXI' (1#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/f95c/src/myip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'myip_v1_0' (2#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ipshared/f95c/src/myip_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'design_1_myip_0_3' (3#1) [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/synth/design_1_myip_0_3.v:57]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 334.676 ; gain = 124.969
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 334.676 ; gain = 124.969
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/src/zybo-master.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/src/zybo-master.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/speci/vivado/custom_ip/custom_ip.runs/design_1_myip_0_3_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/speci/vivado/custom_ip/custom_ip.runs/design_1_myip_0_3_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.310 . Memory (MB): peak = 629.082 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module myip_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design myip_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design myip_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design myip_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design myip_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design myip_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design myip_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/myip_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/myip_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\myip_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/myip_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/myip_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\myip_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (myip_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module myip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (myip_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module myip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (myip_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module myip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (myip_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module myip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (myip_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module myip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (myip_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module myip_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     5|
+|3     |LUT3 |     3|
+|4     |LUT4 |    20|
+|5     |LUT5 |     2|
+|6     |LUT6 |    33|
+|7     |FDRE |   169|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------------------+------------------+------+
+|      |Instance                   |Module            |Cells |
++------+---------------------------+------------------+------+
+|1     |top                        |                  |   233|
+|2     |  inst                     |myip_v1_0         |   233|
+|3     |    myip_v1_0_S00_AXI_inst |myip_v1_0_S00_AXI |   233|
++------+---------------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 629.082 ; gain = 109.418
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 629.082 ; gain = 419.375
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/src/zybo-master.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/src/zybo-master.xdc] for cell 'inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 629.082 ; gain = 408.168
+INFO: [Common 17-1381] The checkpoint 'C:/Users/speci/vivado/custom_ip/custom_ip.runs/design_1_myip_0_3_synth_1/design_1_myip_0_3.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/speci/vivado/custom_ip/custom_ip.srcs/sources_1/bd/design_1/ip/design_1_myip_0_3/design_1_myip_0_3.xci
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/speci/vivado/custom_ip/custom_ip.runs/design_1_myip_0_3_synth_1/design_1_myip_0_3.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 629.082 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 20 21:10:01 2016...

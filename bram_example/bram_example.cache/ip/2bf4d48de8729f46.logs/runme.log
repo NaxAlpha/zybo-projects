@@ -1,0 +1,54 @@
+
+*** Running vivado
+    with args -log design_1_axi_bram_ctrl_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_bram_ctrl_0_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_bram_ctrl_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 309.496 ; gain = 99.820
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_bram_ctrl_0_0' [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/synth/design_1_axi_bram_ctrl_0_0.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl' [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ipshared/d95a/hdl/axi_bram_ctrl_v4_0_rfs.vhd:23897]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_top' [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ipshared/d95a/hdl/axi_bram_ctrl_v4_0_rfs.vhd:22901]
+INFO: [Synth 8-638] synthesizing module 'axi_lite' [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ipshared/d95a/hdl/axi_bram_ctrl_v4_0_rfs.vhd:7102]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite' (1#1) [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ipshared/d95a/hdl/axi_bram_ctrl_v4_0_rfs.vhd:7102]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_top' (2#1) [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ipshared/d95a/hdl/axi_bram_ctrl_v4_0_rfs.vhd:22901]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl' (3#1) [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ipshared/d95a/hdl/axi_bram_ctrl_v4_0_rfs.vhd:23897]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_bram_ctrl_0_0' (4#1) [c:/Users/speci/vivado/bram_example/bram_example.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/synth/design_1_axi_bram_ctrl_0_0.vhd:92]
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 419.883 ; gain = 210.207
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 419.883 ; gain = 210.207
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.184 . Memory (MB): peak = 648.301 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     2|
+|4     |LUT4 |     7|
+|5     |LUT5 |     4|
+|6     |LUT6 |    18|
+|7     |FDRE |    15|
+|8     |FDSE |     1|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 648.301 ; gain = 438.625
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 648.301 ; gain = 417.277

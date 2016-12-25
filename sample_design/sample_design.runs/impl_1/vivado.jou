@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Dec 19 17:09:36 2016
+# Process ID: 6104
+# Current directory: C:/Users/speci/vivado/sample_design/sample_design.runs/impl_1
+# Command line: vivado.exe -log design_2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_2.tcl -notrace
+# Log file: C:/Users/speci/vivado/sample_design/sample_design.runs/impl_1/design_2.vdi
+# Journal file: C:/Users/speci/vivado/sample_design/sample_design.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_2.tcl -notrace
