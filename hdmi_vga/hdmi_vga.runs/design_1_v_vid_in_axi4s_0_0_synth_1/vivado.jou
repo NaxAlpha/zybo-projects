@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Jan 07 16:16:24 2017
+# Process ID: 8552
+# Current directory: C:/Users/speci/vivado/hdmi_vga/hdmi_vga.runs/design_1_v_vid_in_axi4s_0_0_synth_1
+# Command line: vivado.exe -log design_1_v_vid_in_axi4s_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_vid_in_axi4s_0_0.tcl
+# Log file: C:/Users/speci/vivado/hdmi_vga/hdmi_vga.runs/design_1_v_vid_in_axi4s_0_0_synth_1/design_1_v_vid_in_axi4s_0_0.vds
+# Journal file: C:/Users/speci/vivado/hdmi_vga/hdmi_vga.runs/design_1_v_vid_in_axi4s_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_v_vid_in_axi4s_0_0.tcl -notrace

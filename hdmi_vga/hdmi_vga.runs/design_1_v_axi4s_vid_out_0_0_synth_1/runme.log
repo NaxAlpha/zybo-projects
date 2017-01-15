@@ -1,0 +1,62 @@
+
+*** Running vivado
+    with args -log design_1_v_axi4s_vid_out_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_axi4s_vid_out_0_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_v_axi4s_vid_out_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 313.137 ; gain = 103.457
+INFO: [Synth 8-638] synthesizing module 'design_1_v_axi4s_vid_out_0_0' [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/synth/design_1_v_axi4s_vid_out_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_4' [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:76]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_4_coupler' [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:311]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_4_coupler' (31#1) [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:311]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_4_sync' [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:822]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_4_sync' (32#1) [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:822]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_4_formatter' [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:1453]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_4_formatter' (33#1) [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:1453]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_4' (34#1) [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:76]
+INFO: [Synth 8-256] done synthesizing module 'design_1_v_axi4s_vid_out_0_0' (35#1) [c:/Users/speci/vivado/hdmi_vga/hdmi_vga.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/synth/design_1_v_axi4s_vid_out_0_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 524.508 ; gain = 314.828
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 524.508 ; gain = 314.828
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.197 . Memory (MB): peak = 631.957 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:08 ; elapsed = 00:01:14 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:08 ; elapsed = 00:01:14 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:08 ; elapsed = 00:01:14 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:09 ; elapsed = 00:01:15 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:17 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:01:27 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished Timing Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:28 . Memory (MB): peak = 631.957 ; gain = 422.277
+Finished Technology Mapping : Time (s): cpu = 00:01:21 ; elapsed = 00:01:28 . Memory (MB): peak = 640.910 ; gain = 431.230
+Finished IO Insertion : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    23|
+|2     |LUT1     |    62|
+|3     |LUT2     |    59|
+|4     |LUT3     |    26|
+|5     |LUT4     |    75|
+|6     |LUT5     |    37|
+|7     |LUT6     |    52|
+|8     |MUXCY    |    20|
+|9     |MUXF7    |     2|
+|10    |RAMB36E1 |     1|
+|11    |FDCE     |   139|
+|12    |FDPE     |    27|
+|13    |FDRE     |   180|
+|14    |FDSE     |     2|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 640.910 ; gain = 431.230
+synth_design: Time (s): cpu = 00:01:23 ; elapsed = 00:01:26 . Memory (MB): peak = 1055.129 ; gain = 824.125

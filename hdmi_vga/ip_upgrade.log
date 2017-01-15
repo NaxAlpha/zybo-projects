@@ -1,0 +1,279 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Sat Jan 07 12:16:28 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_pixel_processor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'mode'
+
+-Upgrade has removed port 'pxl_clk'
+
+-Upgrade has added port 'clk_in'
+
+-Upgrade has added port 'clk_out'
+
+-Upgrade has added port 'hsync'
+
+-Upgrade has added port 'vsync'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Sat Jan 07 10:32:33 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Jan 03 14:09:57 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Jan 03 14:06:22 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Jan 03 14:04:20 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Jan 03 14:01:10 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Jan 03 13:46:41 2017
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 16) to (Rev. 17)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_pixel_processor_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'mode'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Thu Dec 29 17:19:51 2016
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Wed Dec 28 17:50:16 2016
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Wed Dec 28 17:14:29 2016
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 11) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Wed Dec 28 17:08:25 2016
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Wed Dec 28 16:58:40 2016
+| Host         : Nax-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pixel_processor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pixel_processor_0_0 (xilinx.com:user:pixel_processor:1.1) from (Rev. 9) to (Rev. 10)
+

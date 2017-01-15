@@ -1,0 +1,42 @@
+Unable to capture context for thread 17268 in process 14460, can not generate back trace
+Unable to capture context for thread 17280 in process 14460, can not generate back trace
+Unable to capture context for thread 17288 in process 14460, can not generate back trace
+Unable to capture context for thread 17292 in process 14460, can not generate back trace
+Exception at PC 0x00007FFC511D7788
+Unable to capture context for thread 17280 in process 14460, can not generate back trace
+Exception at PC 0x00007FFBDC49BB93
+Printing stacktrace...
+
+Unable to capture context for thread 17264 in process 14460, can not generate back trace
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+[0]  [0x00007FFBDC49BB93]
+[1]  [0x00007FFBDC49BB93]
+[2]  [0x00007FFBDC49B4A1]
+[3]  [0x00007FFBDC49B3EF]
+[4]  [0x00007FFBDC4819FE]
+[5]  [0x00007FFBDC480ED1]
+[6]  [0x00007FFBDC480D76]
+[7]  [0x00007FFBDC4279F6]
+[8]  [0x00007FFBDC417AFB]
+[9]  [0x00007FFBDC53E90A]
+[10]  [0x00007FFBDC559F87]
+[11]  [0x00007FFBDC55A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFC539E8364]
+[13] (RtlUserThreadStart+0x21) [0x00007FFC542070D1]
+Done
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788
+Exception at PC 0x00007FFC511D7788

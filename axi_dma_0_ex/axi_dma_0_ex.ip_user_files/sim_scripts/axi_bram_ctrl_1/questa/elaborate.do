@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xil_defaultlib -L xpm -L blk_mem_gen_v8_3_4 -L axi_bram_ctrl_v4_0_9 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.axi_bram_ctrl_1 xil_defaultlib.glbl -o axi_bram_ctrl_1_opt

@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Dec 28 09:25:30 2016
+# Process ID: 11140
+# Current directory: C:/Users/speci/vivado/hdmi_vga_pxl_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5092 C:\Users\speci\vivado\hdmi_vga_pxl_ip\hdmi_vga_pxl_ip.xpr
+# Log file: C:/Users/speci/vivado/hdmi_vga_pxl_ip/vivado.log
+# Journal file: C:/Users/speci/vivado/hdmi_vga_pxl_ip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/vivado-library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 781.828 ; gain = 126.395
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pixel_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.sim/sim_1/behav'
+"xvlog -m64 --relax -prj pixel_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pixel_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto b453804dec734f8c90c6d4c20a232107 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pixel_processor_behav xil_defaultlib.pixel_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pixel_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pixel_processor_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.sim/sim_1/behav/xsim.dir/pixel_processor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.sim/sim_1/behav/xsim.dir/pixel_processor_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Dec 28 09:26:59 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Dec 28 09:26:59 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 800.891 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pixel_processor_behav -key {Behavioral:sim_1:Functional:pixel_processor} -tclbatch {pixel_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source pixel_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pixel_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 800.891 ; gain = 0.000
+add_force {/pixel_processor/pxl_clk} -radix bin {1 0ns} {0 50000ps} -repeat_every 100000ps
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 817.418 ; gain = 0.000
+ipx::package_project -root_dir C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs -vendor xilinx.com -library user -taxonomy /UserIP
+WARNING: [IP_Flow 19-1834] The constraints file "zybo-master.xdc" is added to the synthesis file group only, but will be used for both synthesis and implementation in the IP generation.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'pxl_clk' as interface 'pxl_clk'.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs c:/Xilinx/vivado-library} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/vivado-library'.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property version 1.1 [ipx::current_core]
+set_property display_name pixel_processor_v1_1 [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property description pixel_processor_v1_1 [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/vivado-library'.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v" into library work [C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v:1]
+[Wed Dec 28 10:04:50 2016] Launched synth_1...
+Run output will be captured here: C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v" into library work [C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v:1]
+[Wed Dec 28 10:06:59 2016] Launched synth_1...
+Run output will be captured here: C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.runs/synth_1/runme.log
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v" into library work [C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v:1]
+[Wed Dec 28 10:12:44 2016] Launched synth_1...
+Run output will be captured here: C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.runs/synth_1/runme.log
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v" into library work [C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs/sources_1/new/pixel_processor.v:1]
+[Wed Dec 28 10:22:21 2016] Launched synth_1...
+Run output will be captured here: C:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.runs/synth_1/runme.log
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/speci/vivado/hdmi_vga_pxl_ip/hdmi_vga_pxl_ip.srcs'
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 28 10:28:52 2016...

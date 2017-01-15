@@ -1,0 +1,249 @@
+
+
+================================================================
+== Vivado HLS Report for 'paralleltest'
+================================================================
+* Date:           Fri Dec 30 23:35:05 2016
+
+* Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
+* Project:        hwtest
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z010clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.36|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    1|    2|    2|    3|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 3
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / (p_doRead_read)
+	3  / (!p_doRead_read)
+2 --> 
+	3  / true
+3 --> 
+* FSM state operations: 
+
+ <State 1>: 8.36ns
+ST_1: StgValue_4 (8)  [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecBitsMap(i1 %p_doWrite) nounwind, !map !7
+
+ST_1: StgValue_5 (9)  [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecBitsMap(i32 %p_writeAddr) nounwind, !map !13
+
+ST_1: StgValue_6 (10)  [1/1] 0.00ns
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i32 %p_writeData) nounwind, !map !17
+
+ST_1: StgValue_7 (11)  [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecBitsMap(i1 %p_doRead) nounwind, !map !21
+
+ST_1: StgValue_8 (12)  [1/1] 0.00ns
+:4  call void (...)* @_ssdm_op_SpecBitsMap(i32 %p_readAddr) nounwind, !map !25
+
+ST_1: StgValue_9 (13)  [1/1] 0.00ns
+:5  call void (...)* @_ssdm_op_SpecBitsMap(i32* %p_readData) nounwind, !map !29
+
+ST_1: StgValue_10 (14)  [1/1] 0.00ns
+:6  call void (...)* @_ssdm_op_SpecTopModule([13 x i8]* @paralleltest_str) nounwind
+
+ST_1: p_readAddr_read (15)  [1/1] 0.00ns
+:7  %p_readAddr_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %p_readAddr) nounwind
+
+ST_1: p_doRead_read (16)  [1/1] 0.00ns
+:8  %p_doRead_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %p_doRead) nounwind
+
+ST_1: p_writeData_read (17)  [1/1] 0.00ns
+:9  %p_writeData_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %p_writeData) nounwind
+
+ST_1: p_writeAddr_read (18)  [1/1] 0.00ns
+:10  %p_writeAddr_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %p_writeAddr) nounwind
+
+ST_1: p_doWrite_read (19)  [1/1] 0.00ns
+:11  %p_doWrite_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %p_doWrite) nounwind
+
+ST_1: StgValue_16 (20)  [1/1] 0.00ns  loc: hwtest/main.cpp:7
+:12  br i1 %p_doWrite_read, label %1, label %._crit_edge
+
+ST_1: tmp_2 (22)  [1/1] 0.00ns  loc: hwtest/main.cpp:8
+:0  %tmp_2 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %p_writeAddr_read, i32 31)
+
+ST_1: tmp_3 (23)  [1/1] 0.00ns
+:1  %tmp_3 = trunc i32 %p_writeAddr_read to i10
+
+ST_1: p_and_f (24)  [1/1] 0.00ns  loc: hwtest/main.cpp:8
+:2  %p_and_f = call i32 @_ssdm_op_BitConcatenate.i32.i22.i10(i22 0, i10 %tmp_3)
+
+ST_1: tmp_4 (25)  [1/1] 0.00ns  loc: hwtest/main.cpp:8
+:3  %tmp_4 = trunc i32 %p_writeAddr_read to i10
+
+ST_1: tmp_5 (26)  [1/1] 1.84ns  loc: hwtest/main.cpp:8
+:4  %tmp_5 = sub i10 0, %tmp_4
+
+ST_1: p_and_t (27)  [1/1] 0.00ns  loc: hwtest/main.cpp:8
+:5  %p_and_t = call i32 @_ssdm_op_BitConcatenate.i32.i22.i10(i22 0, i10 %tmp_5)
+
+ST_1: p_neg_t (28)  [1/1] 2.44ns  loc: hwtest/main.cpp:8
+:6  %p_neg_t = sub i32 0, %p_and_t
+
+ST_1: tmp (29)  [1/1] 1.37ns  loc: hwtest/main.cpp:8
+:7  %tmp = select i1 %tmp_2, i32 %p_neg_t, i32 %p_and_f
+
+ST_1: buffer_addr (30)  [1/1] 0.00ns  loc: hwtest/main.cpp:8
+:8  %buffer_addr = getelementptr inbounds [1024 x i32]* @buffer_r, i32 0, i32 %tmp
+
+ST_1: StgValue_26 (31)  [1/1] 2.71ns  loc: hwtest/main.cpp:8
+:9  store i32 %p_writeData_read, i32* %buffer_addr, align 4
+
+ST_1: StgValue_27 (32)  [1/1] 0.00ns  loc: hwtest/main.cpp:9
+:10  br label %._crit_edge
+
+ST_1: StgValue_28 (34)  [1/1] 0.00ns  loc: hwtest/main.cpp:10
+._crit_edge:0  br i1 %p_doRead_read, label %2, label %._crit_edge1
+
+ST_1: tmp_6 (36)  [1/1] 0.00ns  loc: hwtest/main.cpp:11
+:0  %tmp_6 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %p_readAddr_read, i32 31)
+
+ST_1: tmp_7 (37)  [1/1] 0.00ns
+:1  %tmp_7 = trunc i32 %p_readAddr_read to i10
+
+ST_1: tmp_8 (39)  [1/1] 0.00ns  loc: hwtest/main.cpp:11
+:3  %tmp_8 = trunc i32 %p_readAddr_read to i10
+
+
+ <State 2>: 8.36ns
+ST_2: p_and_f3 (38)  [1/1] 0.00ns  loc: hwtest/main.cpp:11
+:2  %p_and_f3 = call i32 @_ssdm_op_BitConcatenate.i32.i22.i10(i22 0, i10 %tmp_7)
+
+ST_2: tmp_9 (40)  [1/1] 1.84ns  loc: hwtest/main.cpp:11
+:4  %tmp_9 = sub i10 0, %tmp_8
+
+ST_2: p_and_t5 (41)  [1/1] 0.00ns  loc: hwtest/main.cpp:11
+:5  %p_and_t5 = call i32 @_ssdm_op_BitConcatenate.i32.i22.i10(i22 0, i10 %tmp_9)
+
+ST_2: p_neg_t6 (42)  [1/1] 2.44ns  loc: hwtest/main.cpp:11
+:6  %p_neg_t6 = sub i32 0, %p_and_t5
+
+ST_2: tmp_1 (43)  [1/1] 1.37ns  loc: hwtest/main.cpp:11
+:7  %tmp_1 = select i1 %tmp_6, i32 %p_neg_t6, i32 %p_and_f3
+
+ST_2: buffer_addr_1 (44)  [1/1] 0.00ns  loc: hwtest/main.cpp:11
+:8  %buffer_addr_1 = getelementptr inbounds [1024 x i32]* @buffer_r, i32 0, i32 %tmp_1
+
+ST_2: buffer_load (45)  [2/2] 2.71ns  loc: hwtest/main.cpp:11
+:9  %buffer_load = load i32* %buffer_addr_1, align 4
+
+
+ <State 3>: 2.71ns
+ST_3: buffer_load (45)  [1/2] 2.71ns  loc: hwtest/main.cpp:11
+:9  %buffer_load = load i32* %buffer_addr_1, align 4
+
+ST_3: StgValue_40 (46)  [1/1] 0.00ns  loc: hwtest/main.cpp:11
+:10  call void @_ssdm_op_Write.ap_auto.i32P(i32* %p_readData, i32 %buffer_load) nounwind
+
+ST_3: StgValue_41 (47)  [1/1] 0.00ns  loc: hwtest/main.cpp:12
+:11  br label %._crit_edge1
+
+ST_3: StgValue_42 (49)  [1/1] 0.00ns  loc: hwtest/main.cpp:13
+._crit_edge1:0  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 8.36ns
+The critical path consists of the following:
+	wire read on port 'p_writeAddr' [18]  (0 ns)
+	'sub' operation ('tmp_5', hwtest/main.cpp:8) [26]  (1.84 ns)
+	'sub' operation ('p_neg_t', hwtest/main.cpp:8) [28]  (2.44 ns)
+	'select' operation ('tmp', hwtest/main.cpp:8) [29]  (1.37 ns)
+	'getelementptr' operation ('buffer_addr', hwtest/main.cpp:8) [30]  (0 ns)
+	'store' operation (hwtest/main.cpp:8) of variable '_writeData' on array 'buffer_r' [31]  (2.71 ns)
+
+ <State 2>: 8.36ns
+The critical path consists of the following:
+	'sub' operation ('tmp_9', hwtest/main.cpp:11) [40]  (1.84 ns)
+	'sub' operation ('p_neg_t6', hwtest/main.cpp:11) [42]  (2.44 ns)
+	'select' operation ('tmp_1', hwtest/main.cpp:11) [43]  (1.37 ns)
+	'getelementptr' operation ('buffer_addr_1', hwtest/main.cpp:11) [44]  (0 ns)
+	'load' operation ('buffer_load', hwtest/main.cpp:11) on array 'buffer_r' [45]  (2.71 ns)
+
+ <State 3>: 2.71ns
+The critical path consists of the following:
+	'load' operation ('buffer_load', hwtest/main.cpp:11) on array 'buffer_r' [45]  (2.71 ns)
+	wire write on port 'p_readData' (hwtest/main.cpp:11) [46]  (0 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

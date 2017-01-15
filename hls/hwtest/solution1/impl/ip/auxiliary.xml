@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="paralleltest" xd:componentRef="paralleltest" xd:initiationInterval="3" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="_doWrite" xd:originalName="_doWrite" xd:direction="in" xd:interfaceRef="p_doWrite" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="_writeAddr" xd:originalName="_writeAddr" xd:direction="in" xd:interfaceRef="p_writeAddr" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="_writeData" xd:originalName="_writeData" xd:direction="in" xd:interfaceRef="p_writeData" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="_doRead" xd:originalName="_doRead" xd:direction="in" xd:interfaceRef="p_doRead" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="_readAddr" xd:originalName="_readAddr" xd:direction="in" xd:interfaceRef="p_readAddr" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(_readData)" xd:originalName="_readData" xd:direction="out" xd:interfaceRef="p_readData" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="2" xd:average-case="2"/>
+  <xd:resourceEstimates xd:LUT="159" xd:FF="24" xd:BRAM="2" xd:DSP="0"/>
+</xd:acceleratorMap>

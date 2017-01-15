@@ -1,0 +1,10 @@
+sv xil_defaultlib "C:/Xilinx/Vivado/2016.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../ipstatic/hdl/src/verilog"
+sv xil_defaultlib "C:/Xilinx/Vivado/2016.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" --include "../../../ipstatic/hdl/src/verilog"
+verilog dist_mem_gen_v8_0_11 "../../../ipstatic/simulation/dist_mem_gen_v8_0.v" --include "../../../ipstatic/hdl/src/verilog"
+verilog blk_mem_gen_v8_3_4 "../../../ipstatic/simulation/blk_mem_gen_v8_3.v" --include "../../../ipstatic/hdl/src/verilog"
+verilog axi_traffic_gen_v2_0_11 "../../../ipstatic/hdl/axi_traffic_gen_v2_0_rfs.v" --include "../../../ipstatic/hdl/src/verilog"
+verilog xil_defaultlib "../../../../axi_dma_0_ex.srcs/sources_1/ip/axi_traffic_gen_0/sim/axi_traffic_gen_0.v" --include "../../../ipstatic/hdl/src/verilog"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
